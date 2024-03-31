@@ -1,0 +1,39 @@
+.container {
+  margin-top: -24px;
+  width: 100%;
+
+  display: flex;
+  gap: 8px;
+
+  > input {
+    flex: 1;
+
+    color: var(--gray-100);
+    background-color: var(--gray-500);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+
+    padding: 16px;
+
+    &::placeholder {
+      color: var(--gray-300);
+    }
+  }
+}
+
+.buttonAddNewtask {
+  border: none;
+  padding: 16px;
+  color: var(--gray-100);
+  background-color: var(--blue-dark);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
